@@ -1,0 +1,31 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.post{
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   margin: 30px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   overflow: hidden;
+}
+.post__image{
+   flex: 0.3;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}  
+.post__info{
+   flex: 1;
+   padding: 15px 30px;
+}
